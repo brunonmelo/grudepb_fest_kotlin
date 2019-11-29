@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /grudepb_fest_kotlin
+
+grudepb-fest-kotlin:
+  api-info:
+    titulo: Middleware Site Portador
+    descricao: Documentação da API para acesso aos endpoints do serviço
+    versao: 1.0
+    pacote: com.grudepb.fest.kotlin.api.controller
